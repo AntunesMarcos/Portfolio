@@ -1,41 +1,244 @@
-💻 Meu Portfólio Profissional
-Fala, pessoal! 👋 Bem-vindos ao repositório do meu portfólio.
 
-Mais do que apenas um site, este projeto é a vitrine digital de toda a minha trajetória como desenvolvedor. Aqui, estou construindo do zero uma aplicação web para reunir minha evolução acadêmica na Engenharia de Software pela PUC Minas, minhas vivências profissionais e os projetos que mais me dão orgulho de ter tirado do papel.
+# Vitrine Digital - Portfólio Web Interativo
 
-A ideia é que, no primeiro contato, qualquer pessoa ou recrutador consiga entender rapidamente quem eu sou, minhas áreas de foco (como Desenvolvimento Full-Stack e Arquitetura de Software) e como evoluí dos primeiros códigos até a minha atuação no mercado agora em 2026.
+O **Vitrine Digital** é uma aplicação web moderna desenvolvida para funcionar como um portfólio digital interativo, permitindo apresentar projetos, habilidades e informações profissionais de forma visual e dinâmica.
 
-🚧 Status: Em Construção
-O design (UI/UX) já está validado e pronto, mas o código em si acabou de sair da prancheta! Neste momento, estou configurando a base do projeto, definindo a arquitetura das pastas e preparando os primeiros componentes.
+O objetivo do projeto é demonstrar boas práticas de desenvolvimento Front-end, organização de código, uso de animações modernas e criação de interfaces responsivas.
 
-🛠️ A Stack Escolhida
-Para garantir um código limpo, moderno e fácil de escalar, a base do projeto será:
+---
 
-React: Para componentizar toda a interface de forma inteligente.
+## 🚧 Status do Projeto
 
-Tailwind CSS: Para uma estilização super rápida, responsiva e sem a complexidade de dezenas de arquivos CSS separados.
+🟢 **Em desenvolvimento**
 
-🗺️ O que você verá por aqui (Roadmap)
-Assim que a estrutura ganhar vida, o portfólio será dividido nas seguintes áreas:
+---
 
-Sobre Mim: Um resumo direto da minha identidade profissional e tecnologias que domino.
+## 📚 Índice
 
-Timeline de Projetos: Uma linha do tempo interativa mostrando a evolução dos meus desenvolvimentos (de 2024 até hoje).
+* [Links Úteis](https://www.google.com/search?q=%23-links-%C3%BAteis)
+* [Sobre o Projeto](https://www.google.com/search?q=%23-sobre-o-projeto)
+* [Funcionalidades Principais](https://www.google.com/search?q=%23-funcionalidades-principais)
+* [Tecnologias Utilizadas](https://www.google.com/search?q=%23-tecnologias-utilizadas)
+* [Arquitetura](https://www.google.com/search?q=%23-arquitetura)
+* [Instalação e Execução](https://www.google.com/search?q=%23-instala%C3%A7%C3%A3o-e-execu%C3%A7%C3%A3o)
+* [Deploy](https://www.google.com/search?q=%23-deploy)
+* [Estrutura de Pastas](https://www.google.com/search?q=%23-estrutura-de-pastas)
+* [Demonstração](https://www.google.com/search?q=%23-demonstra%C3%A7%C3%A3o)
+* [Testes](https://www.google.com/search?q=%23-testes)
+* [Documentações Utilizadas](https://www.google.com/search?q=%23-documenta%C3%A7%C3%B5es-utilizadas)
+* [Autores](https://www.google.com/search?q=%23-autores)
+* [Contribuição](https://www.google.com/search?q=%23-contribui%C3%A7%C3%A3o)
+* [Agradecimentos](https://www.google.com/search?q=%23-agradecimentos)
+* [Licença](https://www.google.com/search?q=%23-licen%C3%A7a)
 
-Experiências: Minha bagagem prática, destacando meu estágio atual, trampos como freelancer e imersões em Hackathons.
+---
 
-Contato: Links diretos para as minhas redes e um formulário para batermos um papo.
+## 🔗 Links Úteis
 
-🚀 Como rodar localmente
-A documentação de instalação e os scripts de inicialização serão adicionados aqui assim que o setup inicial do repositório for concluído. Fique de olho!
+* **Demo Online:** [Link para acesso à aplicação web em ambiente de produção]
+* **Documentação:** [Link para a documentação técnica do projeto]
 
-📫 Bora conectar?
-Direto de Belo Horizonte, MG, para o mundo. Estou sempre aberto a trocar ideias sobre código, carreira ou novos desafios.
+---
 
-LinkedIn
+## 📖 Sobre o Projeto
 
-GitHub
+O **Vitrine Digital** foi desenvolvido com o objetivo de criar um portfólio digital moderno e interativo, permitindo que desenvolvedores apresentem seus projetos, habilidades e experiências profissionais de maneira organizada e visualmente atrativa.
 
-E-mail: seu.email@exemplo.com
+A ideia principal do projeto surgiu da necessidade de possuir uma plataforma personalizada para divulgação de trabalhos e experiências na área de tecnologia.
 
-Projetado e desenvolvido com dedicação. Em breve no ar.
+O sistema permite que o usuário apresente:
+
+* Projetos desenvolvidos
+* Tecnologias dominadas
+* Informações pessoais e profissionais
+* Links para redes profissionais
+
+**Público-alvo:**
+
+* Desenvolvedores iniciantes
+* Estudantes de tecnologia
+* Profissionais que desejam divulgar seu portfólio online
+
+---
+
+## ✨ Funcionalidades Principais
+
+* **Apresentação de Portfólio:** Exibição de projetos desenvolvidos.
+* **Seção Sobre o Desenvolvedor:** Informações profissionais e acadêmicas.
+* **Interface Moderna e Responsiva:** Layout adaptado para desktop e dispositivos móveis.
+* **Animações Interativas:** Uso do Framer Motion para melhorar a experiência do usuário.
+* **Exibição de Projetos:** Apresentação visual de trabalhos realizados.
+* **Links para Redes Profissionais:** GitHub, LinkedIn e outras plataformas.
+
+---
+
+## 🛠 Tecnologias Utilizadas
+
+### Front-end
+
+* **Framework/Biblioteca:** JavaScript (ES6+)
+* **Build Tool:** Vite
+* **Estilização:** TailwindCSS
+* **Animações:** Framer Motion
+* **Gerenciamento de dependências:** npm
+
+---
+
+## 🏗 Arquitetura
+
+O projeto segue uma arquitetura simples baseada em aplicação Front-end moderna, organizada em componentes reutilizáveis.
+
+**Principais conceitos utilizados:**
+
+* Componentização
+* Organização modular
+* Separação entre lógica e interface
+
+> **Fluxo geral da aplicação:**
+> Usuário → Interface Web → Componentes → Renderização dinâmica
+
+---
+
+## ⚙️ Instalação e Execução
+
+### Pré-requisitos
+
+Antes de executar o projeto, certifique-se de possuir instalado:
+
+* Node.js (versão 18 ou superior)
+* npm
+
+### 📦 Instalação de Dependências
+
+1. Clone o repositório:
+```bash
+git clone <https://github.com/AntunesMarcos/Portifolio/edit/main/README.md>
+
+```
+
+
+2. Entre na pasta do projeto:
+```bash
+cd vitrine-digital
+
+```
+
+
+3. Instale as dependências:
+```bash
+npm install
+
+```
+
+
+
+### ⚡ Como Executar a Aplicação
+
+1. Execute o servidor de desenvolvimento:
+```bash
+npm run dev
+
+```
+
+
+2. A aplicação estará disponível em: `http://localhost:5173`
+
+---
+
+## 🚀 Deploy
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+
+```
+
+Os arquivos finais serão gerados na pasta: `dist/`
+
+---
+
+## 📂 Estrutura de Pastas
+
+```text
+vitrine-digital
+│
+├── public          # Arquivos estáticos
+├── src
+│   ├── components  # Componentes reutilizáveis
+│   ├── pages       # Páginas da aplicação
+│   ├── assets      # Imagens e mídias
+│   ├── styles      # Arquivos de estilo (CSS/Tailwind)
+│   └── utils       # Funções utilitárias
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+```
+
+---
+
+## 🎥 Demonstração
+
+Principais telas do sistema:
+
+* Página inicial
+* Página de projetos
+* Página sobre o desenvolvedor
+
+---
+
+## 🧪 Testes
+
+O projeto pode ser expandido com testes utilizando ferramentas como:
+
+* Jest
+* React Testing Library
+* Cypress
+
+---
+
+## 📚 Documentações Utilizadas
+
+* [Documentação do Vite](https://www.google.com/search?q=https://vitejs.dev/)
+* [Documentação do TailwindCSS](https://www.google.com/search?q=https://tailwindcss.com/docs)
+* [Documentação do Framer Motion](https://www.google.com/search?q=https://www.framer.com/motion/)
+* [Documentação JavaScript (MDN)](https://www.google.com/search?q=https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+---
+
+## 👥 Autores
+
+* **Davi Vinicius Barbosa de Oliveira**
+* **Marcos de Oliveira Antunes**
+* **Vinicius Zegarra Palhares**
+* **Lucas Gonçalves Dolabela**
+
+*Estudantes de Engenharia de Software – PUC Minas*
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas. Para contribuir:
+
+1. Faça um fork do projeto
+2. Crie uma nova branch
+3. Faça suas alterações
+4. Envie um Pull Request
+
+---
+
+## 🙏 Agradecimentos
+
+Agradecimentos ao **Prof. Dr. João Paulo Aramuni** pelo template de documentação utilizado como base neste projeto.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
+
+---
+
