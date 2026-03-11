@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Github, Twitter, Send, CheckCircle } from 'lucide-react';
+import { Mail, Linkedin, Github, Twitter, Send, CheckCircle, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -30,25 +30,25 @@ const ContactPage = () => {
     {
       name: 'LinkedIn',
       icon: Linkedin,
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/marcos-antunes-7190572ba/',
       color: 'hover:text-blue-500',
     },
     {
       name: 'GitHub',
       icon: Github,
-      href: 'https://github.com',
+      href: 'https://github.com/AntunesMarcos',
       color: 'hover:text-gray-400',
     },
     {
-      name: 'Twitter',
-      icon: Twitter,
-      href: 'https://twitter.com',
-      color: 'hover:text-sky-500',
+      name: 'Instagram',
+      icon: Instagram,
+      href: 'https://www.instagram.com/marcos_antune5/',
+      color: 'hover:text-pink-500',
     },
     {
       name: 'Email',
       icon: Mail,
-      href: 'mailto:zegarravdev@gmail.com',
+      href: 'pereiraantunesmarcos@gmail.com',
       color: 'hover:text-red-500',
     },
   ];
@@ -97,7 +97,6 @@ const ContactPage = () => {
 
     const time = new Date().toLocaleString('pt-BR');
 
-    // Organizando os dados para o EmailJS
     const templateParams = {
       name: formData.name,
       email: formData.email,
@@ -106,16 +105,13 @@ const ContactPage = () => {
     };
 
     try {
-      // Usamos Promise.all para disparar os dois e-mails simultaneamente
       await Promise.all([
-        // 2. Email para VOCÊ
         emailjs.send(
           EMAILJS_CONFIG.SERVICE_ID,
           EMAILJS_CONFIG.TEMPLATE_ID_FOR_ME,
           { ...templateParams, title: `Nova mensagem de: ${formData.name}` },
           EMAILJS_CONFIG.PUBLIC_KEY
         ),
-        // 3. Email de confirmação para o CLIENTE (Sender)
         emailjs.send(
           EMAILJS_CONFIG.SERVICE_ID,
           EMAILJS_CONFIG.TEMPLATE_ID_FOR_SENDER,

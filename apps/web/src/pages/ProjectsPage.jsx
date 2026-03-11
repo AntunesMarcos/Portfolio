@@ -29,9 +29,9 @@ const ProjectsPage = () => {
           const formattedProjects = data.map((repo, index) => ({
             id: repo.id,
             title: repo.name.replace(/-/g, ' ').toUpperCase(),
-            description: repo.description || (t('projects.noDescription') || 'Sem descrição disponível.'),
+            description: repo.description || ( 'Sem descrição disponível.'),
             date: new Date(repo.created_at).toLocaleDateString('pt-BR', { year: 'numeric', month: 'short' }),
-            technologies: repo.language ? [repo.language] : ['Geral'],
+            technologies: repo.language ? [repo.language] : ['Linguagem não identificada'],
             color: cardColors[index % cardColors.length],
             githubUrl: repo.html_url,
             homepage: repo.homepage 

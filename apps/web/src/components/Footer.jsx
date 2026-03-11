@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Github, Twitter, Mail, Code2, Heart, ArrowUpRight } from 'lucide-react';
+import { Linkedin, Github, Twitter, Mail, Code2, Heart, ArrowUpRight, Instagram } from 'lucide-react';
 import { useLanguage } from '@/context/LanguageContext.jsx';
 
 const Footer = () => {
@@ -8,10 +8,10 @@ const Footer = () => {
   const { t } = useLanguage();
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub', color: 'hover:bg-gray-700' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn', color: 'hover:bg-blue-600' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter', color: 'hover:bg-sky-500' },
-    { icon: Mail, href: 'mailto:ninguem@exemplo.com', label: 'Email', color: 'hover:bg-primary' },
+    { icon: Github, href: 'https://github.com/AntunesMarcos', label: 'GitHub', color: 'hover:bg-gray-700' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/marcos-antunes-7190572ba/', label: 'LinkedIn', color: 'hover:bg-blue-600' },
+    { icon: Instagram, href: 'https://www.instagram.com/marcos_antune5/', label: 'Instagram', color: 'hover:bg-pink-500' },
+    { icon: Mail, href: 'mailto:pereiraantunesmarcos@gmail.com', label: 'Email', color: 'hover:bg-primary' },
   ];
 
   const quickLinks = [
@@ -56,7 +56,7 @@ const Footer = () => {
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center shadow-lg shadow-primary/20">
                 <Code2 className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-foreground tracking-tight">Nome<span className="text-primary">.</span></span>
+              <span className="text-xl font-bold text-foreground tracking-tight">Marcos Antunes<span className="text-primary">.</span></span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
               {t('footer.subtitle')}
@@ -116,21 +116,21 @@ const Footer = () => {
             </div>
             <div className="space-y-2">
               <a
-                href="mailto:ninguem@exemplo.com"
+                href="mailto:pereiraantunesmarcos@gmail.com"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary text-sm transition-colors group"
               >
                 <Mail className="w-4 h-4" />
-                <span>ninguem@exemplo.com</span>
+                <span>pereiraantunesmarcos@gmail.com</span>
                 <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/AntunesMarcos"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary text-sm transition-colors group"
               >
                 <Github className="w-4 h-4" />
-                <span>github.com/nome</span>
+                <span>github.com/AntunesMarcos</span>
                 <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
               </a>
             </div>
@@ -140,7 +140,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-6 border-t border-border/50 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-muted-foreground text-xs flex items-center gap-1.5">
-            © {currentYear} Nome.
+            © {currentYear} Marcos Antunes.
             <span className="text-muted-foreground/60">{t('footer.rights')}</span>
           </p>
           <p className="text-muted-foreground/60 text-xs flex items-center gap-1">
