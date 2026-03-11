@@ -10,6 +10,7 @@ import AboutPage from './pages/AboutPage.jsx';
 import ProjectsPage from './pages/ProjectsPage.jsx';
 import ExperiencePage from './pages/ExperiencePage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
