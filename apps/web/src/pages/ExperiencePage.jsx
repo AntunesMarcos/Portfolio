@@ -54,16 +54,6 @@ const ExperiencePage = () => {
       color: 'from-purple-500 to-pink-500',
       highlights: t('experience.items.e3.highlights'),
     },
-    {
-      id: 4,
-      role: t('experience.items.e4.role'),
-      company: t('experience.items.e4.company'),
-      duration: t('experience.items.e4.duration'),
-      description: t('experience.items.e4.description'),
-      icon: Users,
-      color: 'from-orange-500 to-red-500',
-      highlights: t('experience.items.e4.highlights'),
-    },
   ];
 
   return (

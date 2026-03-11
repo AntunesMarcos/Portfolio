@@ -8,165 +8,123 @@
       "contact": "Contact",
       "menu": "Menu"
     },
+
     "footer": {
-      "subtitle": "Software Engineer & Student passionate about building innovative solutions.",
-      "quickLinks": "Quick Links",
-      "connect": "Connect",
-      "rights": "All rights reserved."
-    },
+    "subtitle": "Software Engineering Student at PUC Minas, focused on building practical and efficient Back-end solutions.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect with me",
+    "rights": "All rights reserved."
+  }    ,
     "home": {
-      "metaTitle": "Your Name - Software Engineer & Student",
-      "metaDesc": "Portfolio of Your name , a passionate Software Engineer and Student specializing in modern web development.",
-      "badge": "Welcome to my portfolio",
-      "title": "Your name and surname",
-      "subtitle": "Software Engineer & Student",
-      "description": "Passionate about creating innovative solutions through clean code and modern technologies. Specializing in full-stack development with a focus on user experience and performance.",
-      "viewProjects": "View My Projects",
-      "getInTouch": "Get In Touch",
-      "scroll": "Scroll to explore"
-    },
-    "about": {
-      "metaTitle": "About - Your nome",
-      "metaDesc": "Learn more about Your name, a Software Engineering student and developer passionate about creating innovative solutions.",
-      "title": "About Me",
-      "subtitle": "Get to know more about my journey, skills, and passion for technology",
-      "hello": "Hello, I'm Nome",
-      "p1": "I'm a passionate Software Engineering student with a deep love for creating innovative digital solutions. My journey in technology began with curiosity and has evolved into a commitment to building impactful applications.",
-      "p2": "I specialize in full-stack development, with expertise in modern frameworks and technologies. I believe in writing clean, maintainable code and creating user experiences that make a difference.",
-      "p3": "When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
-      "skillsTitle": "Technical Skills",
-      "educationTitle": "Education",
-      "edu1": {
-        "degree": "Bachelor of Software Engineering",
-        "institution": "Pontificia Universidade Catolica",
-        "period": "2023 - Present",
-        "description": "Focusing on software architecture, algorithms, and modern development practices."
-      }
-    },
+  "metaTitle": "Marcos | Software Engineering Student",
+  "metaDesc": "Portfolio of Marcos, a Software Engineering student at PUC Minas. Focused on Java, Back-end development, and building simple, practical solutions.",
+  "badge": "Welcome to my portfolio",
+  "title": "Marcos Antunes",
+  "subtitle": "Software Engineering Student",
+  "description": "Dedicated to mastering Software Engineering through practical, daily coding. I specialize in building simple yet robust solutions with a focus on Back-end development and clean code.",
+  "viewProjects": "View My Projects",
+  "getInTouch": "Get In Touch",
+  "scroll": "Scroll to explore"
+},
+  "about": {
+  "metaTitle": "About | Marcos Antunes",
+  "metaDesc": "Software Engineering student at PUC Minas with a background in IT infrastructure and a passion for practical Back-end development with Java.",
+  "title": "About Me",
+  "subtitle": "From technical support to Software Engineering: building practical solutions through code.",
+  "hello": "Hello, I'm Marcos",
+  "p1": "My journey in technology started at the Federal Institute of Northern Minas Gerais (IFNMG), where I completed my technical degree in Informatics[cite: 12, 14]. This foundation led me to PUC Minas, where I am currently pursuing Software Engineering to turn my curiosity into professional expertise[cite: 8, 9].",
+  "p2": "With experience in IT infrastructure and help desk roles, I've developed a hands-on approach to problem-solving[cite: 32, 39, 42]. Today, I focus on Back-end development using Java and Spring Boot, always aiming to create clean, simple, and functional code that solves real-world problems.",
+  "p3": "I believe that great software is built on solid logic and continuous learning. When I'm not studying at PUC, I'm usually refining my skills in Java, exploring React, or improving my English at Wizard to prepare for global challenges[cite: 17, 20, 24].",
+  "skillsTitle": "Technical Skills",
+  "educationTitle": "Education",
+  "edu1": {
+    "degree": "Bachelor of Software Engineering",
+    "institution": "PUC Minas",
+    "period": "2024 - 2027",
+    "description": "Currently in the 4th period, focusing on data structures, agile methodologies (Scrum), and software architecture[cite: 10, 22]."
+  }
+},
     "projects": {
-      "metaTitle": "Projects - Nome",
+      "metaTitle": "Projects - Marcos",
       "metaDesc": "Explore the portfolio of projects by Your Name, showcasing innovative web applications and software solutions.",
       "title": "My Projects",
       "subtitle": "A collection of projects showcasing my skills and passion for development",
       "viewProject": "View Project",
-      "sourceCode": "Source Code",
-      "items": {
-        "p1": {
-          "title": "Personal Portfolio Website",
-          "description": "A modern, responsive portfolio website built with React and TailwindCSS. Features dark theme, smooth animations, and optimized performance.",
-          "date": "2026",
-          "technologies": ["React", "TailwindCSS", "Framer Motion", "React Router"]
-        },
-        "p2": {
-          "title": "E-commerce Platform",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "date": "2025",
-          "technologies": ["React", "Node.js", "MongoDB", "Stripe API", "Express"]
-        },
-        "p3": {
-          "title": "Task Management App",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "date": "2025",
-          "technologies": ["React", "Firebase", "Material-UI", "WebSockets"]
-        },
-        "p4": {
-          "title": "Weather Dashboard",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "date": "2024",
-          "technologies": ["React", "OpenWeather API", "Chart.js", "TailwindCSS"]
-        },
-        "p5": {
-          "title": "Chat Application",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "date": "2024",
-          "technologies": ["React", "Socket.io", "Node.js", "MongoDB", "JWT"]
-        }
-      }
+      "sourceCode": "Source Code"
     },
     "experience": {
-      "metaTitle": "Experience - Nome",
-      "metaDesc": "Professional experience and career journey of Your Name, including internships, projects, and contributions.",
-      "title": "Experience",
-      "subtitle": "My professional journey and contributions to the tech community",
-      "highlights": "Key Highlights:",
-      "items": {
-        "e1": {
-          "role": "Software Engineering Intern",
-          "company": "Tech Innovations Inc.",
-          "duration": "June 2025 - Present",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "highlights": [
-            "Built responsive UI ",
-            "Improved application performance",
-            "Collaborated with design team on UX improvements"
-          ]
-        },
-        "e2": {
-          "role": "Full Stack Developer",
-          "company": "Freelance Projects",
-          "duration": "January 2024 - May 2025",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "highlights": [
-            "Delivered 10+ successful projects for clients",
-            "Specialized in MERN stack development",
-            "Maintained 98% client satisfaction rate"
-          ]
-        },
-        "e3": {
-          "role": "Academic Projects",
-          "company": "University of Technology",
-          "duration": "2023 - Present",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "highlights": [
-            "Developed a distributed task scheduler system",
-            "Created a machine learning-based recommendation engine",
-            "Led team of 5 students in capstone project"
-          ]
-        },
-        "e4": {
-          "role": "Open Source Contributions",
-          "company": "Various Projects",
-          "duration": "2023 - Present",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "highlights": [
-            "Contributed to 15+ open-source repositories",
-            "Fixed critical bugs in popular React libraries",
-            "Improved documentation for developer tools"
-          ]
-        }
-      }
+  "metaTitle": "Experience | Marcos Antunes",
+  "metaDesc": "Professional journey of Marcos Antunes, including IT infrastructure roles, internships, and Software Engineering projects.",
+  "title": "Experience",
+  "subtitle": "My professional path and technical contributions in the IT field",
+  "highlights": "Key Achievements:",
+  "items": {
+    "e1": {
+      "role": "Help Desk Intern",
+      "company": "JFox IT Partners",
+      "duration": "June 2025 - October 2025",
+      "description": "Worked in the infrastructure department handling hardware and user management to ensure operational stability.",
+      "highlights": [
+        "Performed hardware maintenance and equipment upgrades ",
+        "Managed user accounts and credential creation ",
+        "Supported internal infrastructure to maintain high system availability "
+      ]
     },
-    "contact": {
-      "metaTitle": "Contact - Your Name and Surname",
-      "metaDesc": "Get in touch with Name. Send a message or connect through social media.",
-      "title": "Get In Touch",
-      "subtitle": "Have a question or want to work together? I'd love to hear from you!",
-      "formTitle": "Send a Message",
-      "nameLabel": "Name *",
-      "namePlaceholder": "Your name",
-      "emailLabel": "Email *",
-      "emailPlaceholder": "your.email@example.com",
-      "messageLabel": "Message *",
-      "messagePlaceholder": "Your message...",
-      "sending": "Sending...",
-      "send": "Send Message",
-      "connectTitle": "Connect With Me",
-      "collabTitle": "Let's Collaborate",
-      "collabP1": "to say hi, feel free to reach out!",
-      "collabP2": "I typically respond within 24-48 hours. Looking forward to connecting with you!",
-      "errors": {
-        "nameReq": "Name is required",
-        "emailReq": "Email is required",
-        "emailInv": "Please enter a valid email address",
-        "msgReq": "Message is required",
-        "valTitle": "Validation Error",
-        "valDesc": "Please fill in all required fields correctly."
-      },
-      "success": {
-        "title": "Message Sent Successfully!",
-        "desc": "Thank you for reaching out. I'll get back to you soon."
-      }
+    "e2": {
+      "role": "IT Intern",
+      "company": "City Hall of Santo Antônio do Jacinto",
+      "duration": "Jan 2022 (200 hours)",
+      "description": "Provided technical support and maintenance for public infrastructure systems.",
+      "highlights": [
+        "Preventive and corrective maintenance of computer systems ",
+        "Local network configuration and software troubleshooting ",
+        "Collaborated with the technical team to improve local IT infrastructure "
+      ]
+    },
+    "e3": {
+      "role": "Administrative Assistant",
+      "company": "Antunes Comércio & Serviços",
+      "duration": "Jan 2021 - Dec 2023",
+      "description": "Developed professional responsibility and teamwork skills in a commercial environment.",
+      "highlights": [
+        "Managed inventory and organized logistics operations ",
+        "Coordinated team activities to meet strict deadlines ",
+        "Enhanced communication and collaborative work skills"
+      ]
     }
+  }
+},
+    "contact": {
+  "metaTitle": "Contact | Marcos de Oliveira Antunes",
+  "metaDesc": "Get in touch with Marcos. Send a message for internships, technical collaboration, or networking.",
+  "title": "Get In Touch",
+  "subtitle": "Currently looking for internship opportunities and open to discussing new projects. Let's talk!",
+  "formTitle": "Send a Message",
+  "nameLabel": "Name *",
+  "namePlaceholder": "Your name",
+  "emailLabel": "Email *",
+  "emailPlaceholder": "your.email@example.com",
+  "messageLabel": "Message *",
+  "messagePlaceholder": "How can I help you?",
+  "sending": "Sending...",
+  "send": "Send Message",
+  "connectTitle": "Connect With Me",
+  "collabTitle": "Let's Collaborate",
+  "collabP1": "Whether you have a project idea or just want to connect, feel free to reach out!",
+  "collabP2": "I'll do my best to get back to you as soon as possible. Looking forward to it!",
+  "errors": {
+    "nameReq": "Name is required",
+    "emailReq": "Email is required",
+    "emailInv": "Please enter a valid email address",
+    "msgReq": "Message is required",
+    "valTitle": "Validation Error",
+    "valDesc": "Please fill in all required fields correctly."
+  },
+  "success": {
+    "title": "Message Sent!",
+    "desc": "Thanks for reaching out, Marcos will get back to you soon."
+  }
+}
   },
   "pt-BR": {
     "header": {
@@ -178,163 +136,120 @@
       "menu": "Menu"
     },
     "footer": {
-      "subtitle": "Estudante e Engenheiro de Software apaixonado por criar soluções inovadoras.",
-      "quickLinks": "Links Rápidos",
-      "connect": "Conectar",
-      "rights": "Todos os direitos reservados."
-    },
-    "home": {
-      "metaTitle": "Nome e Sobrenome - Engenheiro de Software & Estudante",
-      "metaDesc": "Portfólio de Nome, um apaixonado Engenheiro de Software e Estudante especializado em desenvolvimento web moderno.",
-      "badge": "Bem-vindo ao meu portfólio",
-      "title": "Nome e Sobrenome",
-      "subtitle": "Engenheiro de Software & Estudante",
-      "description": "Apaixonado por criar soluções inovadoras através de código limpo e tecnologias modernas. Especializado em desenvolvimento full-stack com foco na experiência do usuário e performance.",
-      "viewProjects": "Ver Meus Projetos",
-      "getInTouch": "Entrar em Contato",
-      "scroll": "Role para explorar"
-    },
+  "subtitle": "Estudante de Engenharia de Software na PUC Minas, focado em criar soluções Back-end práticas e eficientes.",
+  "quickLinks": "Links Rápidos",
+  "connect": "Conecte-se comigo",
+  "rights": "Todos os direitos reservados."
+},
+   "home": {
+  "metaTitle": "Marcos Antunes | Estudante de Engenharia de Software",
+  "metaDesc": "Portfólio de Marcos, estudante de Engenharia de Software na PUC Minas. Focado em Java, desenvolvimento Back-end e na criação de soluções simples e práticas.",
+  "badge": "Bem-vindo ao meu portfólio",
+  "title": "Marcos Antunes",
+  "subtitle": "Estudante de Engenharia de Software",
+  "description": "Dedicado a aprender e aplicar a Engenharia de Software em soluções reais. Desenvolvo aplicações focadas em Back-end, priorizando a simplicidade e a eficiência no código todos os dias.",
+  "viewProjects": "Ver Meus Projetos",
+  "getInTouch": "Entre em Contato",
+  "scroll": "Role para explorar"
+},
     "about": {
-      "metaTitle": "Sobre - Nome",
-      "metaDesc": "Saiba mais sobre Nome, estudante de Engenharia de Software e desenvolvedor apaixonado por criar soluções inovadoras.",
-      "title": "Sobre Mim",
-      "subtitle": "Conheça mais sobre minha jornada, habilidades e paixão por tecnologia",
-      "hello": "Olá, eu sou o Nome",
-      "p1": "Sou um estudante apaixonado por Engenharia de Software com um profundo amor por criar soluções digitais inovadoras. Minha jornada na tecnologia começou com curiosidade e evoluiu para um compromisso em construir aplicações impactantes.",
-      "p2": "Especializo-me em desenvolvimento full-stack, com experiência em frameworks e tecnologias modernas. Acredito em escrever código limpo e sustentável e em criar experiências de usuário que fazem a diferença.",
-      "p3": "Quando não estou programando, você me encontrará explorando novas tecnologias, contribuindo para projetos de código aberto ou compartilhando conhecimento com a comunidade de desenvolvedores.",
-      "skillsTitle": "Habilidades Técnicas",
-      "educationTitle": "Educação",
-      "edu1": {
-        "degree": "Bacharelado em Engenharia de Software",
-        "institution": "Pontificia Universidade Catolica",
-        "period": "2023 - Presente",
-        "description": "Foco em arquitetura de software, algoritmos e práticas modernas de desenvolvimento."
-      }
-    },
+  "metaTitle": "Sobre | Marcos Antunes",
+  "metaDesc": "Estudante de Engenharia de Software na PUC Minas com experiência em infraestrutura e paixão por desenvolvimento Back-end com Java.",
+  "title": "Sobre Mim",
+  "subtitle": "Do suporte técnico à Engenharia de Software: criando soluções práticas através do código.",
+  "hello": "Olá, eu sou o Marcos",
+  "p1": "Minha trajetória na tecnologia começou no IFNMG, onde me formei como Técnico em Informática. Essa base sólida me trouxe até a PUC Minas, onde hoje curso Engenharia de Software para transformar curiosidade em soluções profissionais de alto impacto.",
+  "p2": "Através de estágios em TI e Help Desk, desenvolvi uma visão prática sobre resolução de problemas e infraestrutura. Atualmente, foco meus estudos no desenvolvimento Back-end com Java e Spring Boot, priorizando sempre um código limpo, simples e funcional.",
+  "p3": "Acredito que bons sistemas são fruto de lógica sólida e aprendizado constante. Fora da universidade, estou sempre aprimorando minhas competências em Java, explorando o ecossistema React ou praticando inglês na Wizard.",
+  "skillsTitle": "Competências Técnicas",
+  "educationTitle": "Formação Acadêmica",
+  "edu1": {
+    "degree": "Bacharelado em Engenharia de Software",
+    "institution": "PUC Minas",
+    "period": "2024 - 2027",
+    "description": "Cursando o 5º período, com foco em estruturas de dados, metodologias ágeis (Scrum) e arquitetura de sistemas."
+  }
+},
     "projects": {
-      "metaTitle": "Projetos - Nome",
-      "metaDesc": "Explore o portfólio de projetos de Vincius Zegarra Palhares, apresentando aplicações web inovadoras e soluções de software.",
+      "metaTitle": "Projetos - Marcos Antunes",
+      "metaDesc": "Explore o portfólio de projetos de Marcos Antunes, apresentando aplicações web inovadoras e soluções de software.",
       "title": "Meus Projetos",
-      "subtitle": "Uma coleção de projetos que demonstram minhas habilidades e paixão por desenvolvimento",
+      "subtitle": "Uma coleção de projetos que demonstram minhas habilidades em desenvolvimento",
       "viewProject": "Ver Projeto",
-      "sourceCode": "Código Fonte",
-      "items": {
-        "p1": {
-          "title": "Site de Portfólio Pessoal",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "date": "2026",
-          "technologies": ["React", "TailwindCSS", "Framer Motion", "React Router"]
-        },
-        "p2": {
-          "title": "Plataforma de E-commerce",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "date": "2025",
-          "technologies": ["React", "Node.js", "MongoDB", "Stripe API", "Express"]
-        },
-        "p3": {
-          "title": "App de Gerenciamento de Tarefas",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "date": "2025",
-          "technologies": ["React", "Firebase", "Material-UI", "WebSockets"]
-        },
-        "p4": {
-          "title": "Painel de Clima",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "date": "2024",
-          "technologies": ["React", "OpenWeather API", "Chart.js", "TailwindCSS"]
-        },
-        "p5": {
-          "title": "Aplicativo de Chat",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "date": "2024",
-          "technologies": ["React", "Socket.io", "Node.js", "MongoDB", "JWT"]
-        }
-      }
+      "sourceCode": "Código Fonte"
     },
     "experience": {
-      "metaTitle": "Experiência - Nome",
-      "metaDesc": "Experiência profissional e jornada de carreira de Nome, incluindo estágios, projetos e contribuições.",
-      "title": "Experiência",
-      "subtitle": "Minha jornada profissional e contribuições para a comunidade de tecnologia",
-      "highlights": "Principais Destaques:",
-      "items": {
-        "e1": {
-          "role": "Estagiário de Engenharia de Software",
-          "company": "Tech Innovations Inc.",
-          "duration": "Junho 2025 - Presente",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "highlights": [
-            "Construiu componentes de UI responsivos usando React e TailwindCSS",
-            "Melhorou o desempenho da aplicação em 40%",
-            "Colaborou com a equipe de design em melhorias de UX"
-          ]
-        },
-        "e2": {
-          "role": "Desenvolvedor Full Stack",
-          "company": "Projetos Freelance",
-          "duration": "Janeiro 2024 - Maio 2025",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "highlights": [
-            "Entregou mais de 10 projetos de sucesso para clientes",
-            "Especializou-se em desenvolvimento com a stack MERN",
-            "Manteve uma taxa de satisfação do cliente de 98%"
-          ]
-        },
-        "e3": {
-          "role": "Projetos Acadêmicos",
-          "company": "Universidade de Tecnologia",
-          "duration": "2023 - Presente",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "highlights": [
-            "Desenvolveu um sistema distribuído de agendamento de tarefas",
-            "Criou um mecanismo de recomendação baseado em aprendizado de máquina",
-            "Liderou uma equipe de 5 alunos no projeto de conclusão de curso"
-          ]
-        },
-        "e4": {
-          "role": "Contribuições Open Source",
-          "company": "Vários Projetos",
-          "duration": "2023 - Presente",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-          "highlights": [
-            "Contribuiu para mais de 15 repositórios de código aberto",
-            "Corrigiu bugs críticos em bibliotecas populares do React",
-            "Melhorou a documentação para ferramentas de desenvolvedor"
-          ]
-        }
-      }
+  "metaTitle": "Experiência | Marcos Antunes",
+  "metaDesc": "Jornada profissional de Marcos Antunes, incluindo infraestrutura de TI, estágios e projetos em Engenharia de Software.",
+  "title": "Experiência",
+  "subtitle": "Minha trajetória profissional e contribuições técnicas na área de TI",
+  "highlights": "Principais Destaques:",
+  "items": {
+    "e1": {
+      "role": "Estagiário de Help Desk",
+      "company": "JFox IT Partners",
+      "duration": "Junho 2025 - Outubro 2025",
+      "description": "Atuação no setor de infraestrutura, focando na manutenção de equipamentos e gestão de usuários.",
+      "highlights": [
+        "Realizei a manutenção e troca de máquinas e equipamentos ",
+        "Responsável pela criação de novos usuários no sistema ",
+        "Suporte técnico direto à infraestrutura interna da empresa "
+      ]
     },
-    "contact": {
-      "metaTitle": "Contato - Nome",
-      "metaDesc": "Entre em contato com NOme Envie uma mensagem ou conecte-se através das redes sociais.",
-      "title": "Entrar em Contato",
-      "subtitle": "Tem alguma dúvida ou quer trabalhar junto? Eu adoraria ouvir de você!",
-      "formTitle": "Enviar uma Mensagem",
-      "nameLabel": "Nome *",
-      "namePlaceholder": "Seu nome",
-      "emailLabel": "E-mail *",
-      "emailPlaceholder": "seu.email@exemplo.com",
-      "messageLabel": "Mensagem *",
-      "messagePlaceholder": "Sua mensagem...",
-      "sending": "Enviando...",
-      "send": "Enviar Mensagem",
-      "connectTitle": "Conecte-se Comigo",
-      "collabTitle": "Vamos Colaborar",
-      "collabP1": " Se você tem uma pergunta ou apenas quer dizer oi, sinta-se à vontade para entrar em contato!",
-      "collabP2": "Normalmente respondo dentro de 24-48 horas. Ansioso para me conectar com você!",
-      "errors": {
-        "nameReq": "Nome é obrigatório",
-        "emailReq": "E-mail é obrigatório",
-        "emailInv": "Por favor, insira um endereço de e-mail válido",
-        "msgReq": "Mensagem é obrigatória",
-        "valTitle": "Erro de Validação",
-        "valDesc": "Por favor, preencha todos os campos obrigatórios corretamente."
-      },
-      "success": {
-        "title": "Mensagem Enviada com Sucesso!",
-        "desc": "Obrigado por entrar em contato. Retornarei em breve."
-      }
+    "e2": {
+      "role": "Estagiário de TI",
+      "company": "Prefeitura de Santo Antônio do Jacinto",
+      "duration": "Jan 2022 (200 horas)",
+      "description": "Suporte técnico e manutenção preventiva em sistemas de rede e hardware.",
+      "highlights": [
+        "Manutenção preventiva e corretiva de computadores ",
+        "Configuração de redes locais e atualização de softwares ",
+        "Colaboração em equipe para melhoria da infraestrutura tecnológica "
+      ]
+    },
+    "e3": {
+      "role": "Auxiliar Administrativo",
+      "company": "Antunes Comércio & Serviços",
+      "duration": "Jan 2021 - Dez 2023",
+      "description": "Desenvolvimento de responsabilidade profissional e trabalho em equipe.",
+      "highlights": [
+        "Controle de estoque e organização de produtos ",
+        "Coordenação de atividades em equipe para cumprimento de prazos ",
+        "Aprimoramento de habilidades de comunicação e colaboração "
+      ]
     }
+  }
+},
+    "contact": {
+  "metaTitle": "Contato | Marcos de Oliveira Antunes",
+  "metaDesc": "Entre em contato com Marcos Antunes. Envie uma mensagem para oportunidades de estágio ou colaboração técnica.",
+  "title": "Entre em Contato",
+  "subtitle": "Estou em busca de oportunidades de estágio e aberto a novos projetos. Vamos conversar!",
+  "formTitle": "Envie uma Mensagem",
+  "nameLabel": "Nome *",
+  "namePlaceholder": "Seu nome",
+  "emailLabel": "E-mail *",
+  "emailPlaceholder": "seu.email@exemplo.com",
+  "messageLabel": "Mensagem *",
+  "messagePlaceholder": "Como posso ajudar?",
+  "sending": "Enviando...",
+  "send": "Enviar Mensagem",
+  "connectTitle": "Conecte-se Comigo",
+  "collabTitle": "Vamos Colaborar",
+  "collabP1": "Seja para uma proposta, dúvida ou apenas para networking, sinta-se à vontade para escrever!",
+  "collabP2": "Responderei o mais breve possível. Fico no aguardo do seu contato!",
+  "errors": {
+    "nameReq": "O nome é obrigatório",
+    "emailReq": "O e-mail é obrigatório",
+    "emailInv": "Por favor, insira um e-mail válido",
+    "msgReq": "A mensagem é obrigatória",
+    "valTitle": "Erro de Validação",
+    "valDesc": "Por favor, preencha todos os campos obrigatórios corretamente."
+  },
+  "success": {
+    "title": "Mensagem Enviada com Sucesso!",
+    "desc": "Obrigado por entrar em contato. Responderei em breve."
+  }
+}
   }
 }

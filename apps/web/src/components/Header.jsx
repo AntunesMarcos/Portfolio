@@ -78,11 +78,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center transform group-hover:scale-110 transition-transform shadow-md shadow-primary/20">
-              <span className="text-white font-bold text-xl">Logo</span>
+            <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center shadow-lg shadow-primary/20">
+              <span className="text-white font-bold text-xl">MA</span>
             </div>
             <span className="text-xl font-bold text-foreground hidden sm:block">
-              Nome<span className="text-primary">.</span>
+              Marcos Antunes<span className="text-primary">.</span>
             </span>
           </Link>
 
