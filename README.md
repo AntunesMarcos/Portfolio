@@ -1,4 +1,3 @@
-
 # Vitrine Digital - Portfólio Web Interativo
 
 O **Vitrine Digital** é uma aplicação web moderna desenvolvida para funcionar como um portfólio digital interativo, permitindo apresentar projetos, habilidades e informações profissionais de forma visual e dinâmica.
@@ -113,33 +112,24 @@ Antes de executar o projeto, certifique-se de possuir instalado:
 1. Clone o repositório:
 ```bash
 git clone <https://github.com/AntunesMarcos/Portifolio/edit/main/README.md>
-
 ```
-
 
 2. Entre na pasta do projeto:
 ```bash
 cd vitrine-digital
-
 ```
-
 
 3. Instale as dependências:
 ```bash
 npm install
-
 ```
-
-
 
 ### ⚡ Como Executar a Aplicação
 
 1. Execute o servidor de desenvolvimento:
 ```bash
 npm run dev
-
 ```
-
 
 2. A aplicação estará disponível em: `http://localhost:5173`
 
@@ -151,7 +141,6 @@ Para gerar a versão de produção:
 
 ```bash
 npm run build
-
 ```
 
 Os arquivos finais serão gerados na pasta: `dist/`
@@ -174,7 +163,6 @@ vitrine-digital
 ├── package.json
 ├── vite.config.js
 └── README.md
-
 ```
 
 ---
@@ -186,6 +174,22 @@ Principais telas do sistema:
 * Página inicial
 * Página de projetos
 * Página sobre o desenvolvedor
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+| Home | Sobre |
+|---|---|
+| ![Home](apps/web/src/components/image/Portfolio1.png) | ![Sobre](apps/web/src/components/image/Portfolio2.png) |
+
+| Projetos | Contato |
+|---|---|
+| ![Projetos](apps/web/src/components/image/Portfolio3.png) | ![Contato](apps/web/src/components/image/Portfolio4.png) |
+
+</div>
 
 ---
 
@@ -241,4 +245,3 @@ Agradecimentos ao **Prof. Dr. João Paulo Aramuni** pelo template de documentaç
 Este projeto está sob a licença **MIT**.
 
 ---
-
