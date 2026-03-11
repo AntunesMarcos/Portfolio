@@ -14,21 +14,22 @@ O objetivo do projeto é demonstrar boas práticas de desenvolvimento Front-end,
 
 ## 📚 Índice
 
-* [Links Úteis](https://www.google.com/search?q=%23-links-%C3%BAteis)
-* [Sobre o Projeto](https://www.google.com/search?q=%23-sobre-o-projeto)
-* [Funcionalidades Principais](https://www.google.com/search?q=%23-funcionalidades-principais)
-* [Tecnologias Utilizadas](https://www.google.com/search?q=%23-tecnologias-utilizadas)
-* [Arquitetura](https://www.google.com/search?q=%23-arquitetura)
-* [Instalação e Execução](https://www.google.com/search?q=%23-instala%C3%A7%C3%A3o-e-execu%C3%A7%C3%A3o)
-* [Deploy](https://www.google.com/search?q=%23-deploy)
-* [Estrutura de Pastas](https://www.google.com/search?q=%23-estrutura-de-pastas)
-* [Demonstração](https://www.google.com/search?q=%23-demonstra%C3%A7%C3%A3o)
-* [Testes](https://www.google.com/search?q=%23-testes)
-* [Documentações Utilizadas](https://www.google.com/search?q=%23-documenta%C3%A7%C3%B5es-utilizadas)
-* [Autores](https://www.google.com/search?q=%23-autores)
-* [Contribuição](https://www.google.com/search?q=%23-contribui%C3%A7%C3%A3o)
-* [Agradecimentos](https://www.google.com/search?q=%23-agradecimentos)
-* [Licença](https://www.google.com/search?q=%23-licen%C3%A7a)
+* [Links Úteis](#-links-úteis)
+* [Sobre o Projeto](#-sobre-o-projeto)
+* [Funcionalidades Principais](#-funcionalidades-principais)
+* [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+* [Arquitetura](#-arquitetura)
+* [Instalação e Execução](#-instalação-e-execução)
+* [Deploy](#-deploy)
+* [Estrutura de Pastas](#-estrutura-de-pastas)
+* [Demonstração](#-demonstração)
+* [Screenshots](#-screenshots)
+* [Testes](#-testes)
+* [Documentações Utilizadas](#-documentações-utilizadas)
+* [Autores](#-autores)
+* [Contribuição](#-contribuição)
+* [Agradecimentos](#-agradecimentos)
+* [Licença](#-licença)
 
 ---
 
@@ -171,9 +172,11 @@ vitrine-digital
 
 Principais telas do sistema:
 
-* Página inicial
-* Página de projetos
-* Página sobre o desenvolvedor
+* Página Home
+* Página Sobre mim
+* Página sde Projetos
+* Página de Experiencias
+* Página de contato
 
 ---
 
