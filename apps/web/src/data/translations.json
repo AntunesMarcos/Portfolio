@@ -37,11 +37,17 @@
   "p3": "I believe that great software is built on solid logic and continuous learning. When I'm not studying at PUC, I'm usually refining my skills in Java, exploring React, or improving my English at Wizard to prepare for global challenges[cite: 17, 20, 24].",
   "skillsTitle": "Technical Skills",
   "educationTitle": "Education",
-  "edu1": {
-    "degree": "Bachelor of Software Engineering",
-    "institution": "PUC Minas",
-    "period": "2024 - 2027",
-    "description": "Currently in the 4th period, focusing on data structures, agile methodologies (Scrum), and software architecture[cite: 10, 22]."
+    "edu1": {
+      "degree": "Bachelor of Software Engineering",
+      "institution": "PUC Minas",
+      "period": "2024 - 2027",
+      "description": "Currently in the 4th period, focusing on data structures, agile methodologies (Scrum), and software architecture."
+    },
+    "edu2": {
+    "degree": "Information Technology Technician",
+    "institution": "IFNMG - Campus Almenara",
+    "period": "2021 - 2023",
+    "description": "High School and Vocational Technical Education, focused on computer science, programming fundamentals, and systems maintenance."
   }
 },
     "projects": {
@@ -168,6 +174,12 @@
     "institution": "PUC Minas",
     "period": "2024 - 2027",
     "description": "Cursando o 5º período, com foco em estruturas de dados, metodologias ágeis (Scrum) e arquitetura de sistemas."
+  },
+  "edu2": {
+    "degree": "Ensino Médio Técnico em Informática",
+    "institution": "IFNMG - Campus Almenara",
+    "period": "2021 - 2023",
+    "description": "Formação técnica integrada ao ensino médio, com foco em fundamentos de programação, manutenção de sistemas e redes."
   }
 },
     "projects": {
