@@ -29,6 +29,12 @@ const AboutPage = () => {
       period: t('about.edu1.period'),
       description: t('about.edu1.description'),
     },
+    {
+      degree: t('about.edu2.degree'),
+      institution: t('about.edu2.institution'),
+      period: t('about.edu2.period'),
+      description: t('about.edu2.description'),
+    }
   ];
 
   return (
@@ -190,9 +196,9 @@ const AboutPage = () => {
                 {education.map((edu, index) => (
                   <div
                     key={index}
-                    className="bg-card border border-border rounded-2xl p-8 hover:border-primary transition-all"
+                    className="bg-card border border-border rounded-2xl p-8 hover:border-primary transition-all mt-8"
                   >
-                    <div className="flex items-start space-x-4">
+                    <div className="flex items-start space-x-4 ">
                       <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center flex-shrink-0">
                         <span className="text-white font-bold text-xl">🎓</span>
                       </div>
