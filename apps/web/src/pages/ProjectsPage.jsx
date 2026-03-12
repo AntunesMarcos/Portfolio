@@ -11,6 +11,10 @@ const ProjectsPage = () => {
   const { t } = useLanguage();
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
+  
+  // Pegando o token das variáveis de ambiente
+  const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
+
   const cardColors = [
     'from-cyan-500 to-blue-500',
     'from-emerald-500 to-teal-500',
@@ -22,7 +26,12 @@ const ProjectsPage = () => {
   useEffect(() => {
     const fetchGithubProjects = async () => {
       try {
-        const response = await fetch('https://api.github.com/users/AntunesMarcos/repos?sort=updated&per_page=10');
+        const response = await fetch('https://api.github.com/users/AntunesMarcos/repos?sort=updated&per_page=10', {
+          headers: GITHUB_TOKEN ? {
+            Authorization: `token ${GITHUB_TOKEN}`
+          } : {}
+        });
+
         const data = await response.json();
 
         if (Array.isArray(data)) {
